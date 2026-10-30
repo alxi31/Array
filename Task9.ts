@@ -13,7 +13,7 @@ const sales: number[] = [4500000, 6200000, 3800000, 5100000, 7300000];
 
 const formatRp = (value: number): string => "Rp" + value.toLocaleString("en-US");
 
-// Find the index of the highest and lowest sales using reduce()
+
 const maxIndex: number = sales.reduce(
   (best, value, i) => (value > sales[best] ? i : best),
   0
