@@ -11,7 +11,7 @@ const scores: number[] = [85, 60, 92, 74, 68];
 console.log("===== SCORE RANKING =====\n");
 console.log(`Before sorting : ${scores.join(", ")}`);
 
-// Bubble Sort: a loop inside another loop that compares and swaps neighbors
+=
 for (let i = 0; i < scores.length - 1; i++) {
   for (let j = 0; j < scores.length - 1 - i; j++) {
     if (scores[j] > scores[j + 1]) {
